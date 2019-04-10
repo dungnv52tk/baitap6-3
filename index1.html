@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Diện tích, chu vi hình tròn</title>
+</head>
+<body>
+<script>
+    function dienTichHinhTron(r) {
+        r = parseInt(prompt("Nhập vào bán kính hình tròn: "));
+        return r * r * 3.14;
+    }
+    alert("Diện tích hình tròn là: "+dienTichHinhTron());
+
+    function chuViHinhTron(r) {
+        r = parseInt(prompt("Nhập vào bán kính hình tròn: "));
+        return 2 * r * 3.14;
+    }
+    alert("Chu vi hình tròn là: "+chuViHinhTron());
+</script>
+</body>
+</html>

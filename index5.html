@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiểm tra số nguyên dương</title>
+  <input type="text" id="in" placeholder="Nhập vào một số">
+  <button type="button" onclick="thongBao()">Kiểm tra số nguyên dương</button>
+</head>
+<body>
+<script>
+    function isPositiveInt(num) {
+        if (Number.isInteger(num) && num > 0)
+            return true;
+        else
+            return false;
+    }
+
+    function thongBao() {
+        let num = Number(document.getElementById("in").value);
+
+        let res = isPositiveInt(num);
+
+        alert(res);
+    }
+
+
+</script>
+</body>
+</html>

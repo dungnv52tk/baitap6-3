@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Số nhỏ nhất trong 3 số</title>
+</head>
+<body>
+<script>
+  function min(a, b,c ) {
+      a = parseInt(prompt("Enter first number: "));
+      b = parseInt(prompt("Enter second number: "));
+      c = parseInt(prompt("Enter third number: "));
+      if ((a < b) && (a < c)){
+          alert(a);
+      } else if ((b < a) && (b < c)){
+          alert(b);
+      } else alert (c);
+  }
+  min();
+</script>
+</body>
+</html>

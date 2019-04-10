@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiểm tra ký tự có phải là số</title>
+</head>
+<body>
+<script>
+    function isNumber(char) {
+        char = parseInt(prompt("Enter a character: "));
+        if (Number.isNaN(char) === true)
+            alert(false);
+        else alert(true);
+    }
+
+    isNumber();
+</script>
+</body>
+</html>

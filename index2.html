@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tính giai thừa</title>
+</head>
+<body>
+<script>
+  function tinhGiaiThua(x) {
+      let result = 1;
+      x = parseInt(prompt("Nhập vào một số: "));
+      let n;
+      for (i = x; i > 0; i--){
+          if (i == n) {
+              result = i;
+              break;
+          } else {
+              result = result * i;
+          }
+          alert(result); //CHƯA HOÀN THÀNH
+      }
+  }
+  tinhGiaiThua();
+</script>
+</body>
+</html>
